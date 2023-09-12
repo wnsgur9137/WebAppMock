@@ -1,0 +1,11 @@
+//
+//  environment.xcconfig
+//  WebApp
+//
+//  Created by JunHyeok Lee on 2023/09/04.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+WEB_URL = http:/$()/localhost:3000
