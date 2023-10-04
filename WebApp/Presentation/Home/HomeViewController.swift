@@ -150,18 +150,12 @@ extension HomeViewController {
 // MARK: - WKNavigationDelegate
 extension HomeViewController: WKNavigationDelegate {
     func webView(_ webView: WKWebView, didCommit navigation: WKNavigation!) {
-        print("didCommit")
-//        if webView.canGoBack || webView.canGoForward {
-//            self.navigationController?.isNavigationBarHidden = false
-//        } else {
-//            self.navigationController?.isNavigationBarHidden = true
-//        }
         backBarButtonItem.isEnabled = webView.canGoBack
         towardBarButtonItem.isEnabled = webView.canGoForward
     }
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        print("didFinish")
+        
     }
 }
 
