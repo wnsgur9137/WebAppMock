@@ -8,4 +8,5 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-WEB_URL = http:/$()/localhost:3000
+WEB_URL = http:/$()/14.4.215.65:8001
+LOCAL_WEB_URL = http:/$()/localhost:3000

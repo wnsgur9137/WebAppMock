@@ -9,9 +9,10 @@ import Foundation
 
 final class AppDIContainer {
     let appConfiguration = AppConfiguration()
+    let isTestMode = true
     
     lazy var webURL: String = {
-        let webURL = appConfiguration.webURL
+        let webURL = self.isTestMode ? appConfiguration.localWebURL : appConfiguration.webURL
         return webURL
     }()
     

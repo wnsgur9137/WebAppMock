@@ -4,6 +4,8 @@
 <dict>
 	<key>WEB_URL</key>
 	<string>${WEB_URL}</string>
+	<key>LOCAL_WEB_URL</key>
+	<string>${LOCAL_WEB_URL}</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
